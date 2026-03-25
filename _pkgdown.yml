@@ -1,0 +1,62 @@
+url: https://anyasosamuelcs.github.io/assetIS
+
+template:
+  bootstrap: 5
+  bootswatch: flatly
+
+home:
+  title: "assetIS — Importance Sampling for ASSET"
+  description: >
+    Efficient importance sampling estimators of extreme tail probabilities
+    for the ASSET subset-based meta-analysis statistic.
+
+navbar:
+  structure:
+    left:  [intro, reference, articles, news]
+    right: [search, github]
+  components:
+    github:
+      icon: fab fa-github
+      href: https://github.com/anyasosamuelcs/assetIS
+
+reference:
+  - title: "Gaussian settings (large samples)"
+    desc: >
+      Use these when study-level score statistics are approximately normal.
+      Appropriate for large-sample continuous-trait or case-control
+      meta-analysis.
+    contents:
+      - asset_is_pvalue_ind
+      - asset_is_pvalue_corr
+
+  - title: "Non-Gaussian settings (small samples)"
+    desc: >
+      Use these when normality cannot be assumed — single-cell eQTL,
+      rare-disease meta-analysis, or any setting with small to moderate
+      sample sizes. Genotypes are simulated from a discrete
+      Hardy--Weinberg distribution conditional on the observed phenotype
+      matrix.
+    contents:
+      - asset_is_nonnorm_ind
+      - asset_is_nonnorm_corr
+
+  - title: "Package"
+    contents:
+      - assetIS-package
+
+articles:
+  - title: "Getting started"
+    navbar: ~
+    contents:
+      - introduction
+
+news:
+  - title: "Changelog"
+    navbar: News
+    contents:
+      - NEWS
+
+footer:
+  structure:
+    left: developed_by
+    right: built_with

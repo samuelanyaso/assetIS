@@ -1,0 +1,59 @@
+bibentry(
+  bibtype  = "Manual",
+  title    = "assetIS: Importance Sampling for ASSET Tail Probability Estimation",
+  author   = person(given = "Samuel", family = "Anyaso-Samuel",
+                    role = c("aut", "cre"),
+                    email = "samuel.anyaso-samuel@example.com"),
+  year     = "2025",
+  note     = "R package version 0.1.0",
+  url      = "https://github.com/samuelanyaso/assetIS"
+)
+
+bibentry(
+  bibtype  = "Article",
+  title    = "A subset-based approach improves power and interpretation
+              for the combined analysis of genetic association studies
+              of heterogeneous traits",
+  author   = c(person("Samsiddhi", "Bhattacharjee"),
+               person("Preetha", "Rajaraman"),
+               person("Kevin", "Jacobs"),
+               person("William", "Wheeler"),
+               person("Belynda", "Hicks"),
+               person("Stephen", "Yeager"),
+               person("Jolanta", "Weinstein"),
+               person("Meredith", "Staats"),
+               person("Patricia", "Hartge"),
+               person("Nilanjan", "Chatterjee")),
+  journal  = "American Journal of Human Genetics",
+  year     = "2012",
+  volume   = "90",
+  number   = "5",
+  pages    = "821--835",
+  doi      = "10.1016/j.ajhg.2012.03.015"
+)
+
+bibentry(
+  bibtype   = "Article",
+  title     = "Importance sampling for estimating p values in linkage analysis",
+  author    = c(person("Jianxin", "Shi"),
+                person("David",   "Siegmund"),
+                person("Benny",   "Yakir")),
+  journal   = "Journal of the American Statistical Association",
+  year      = "2007",
+  volume    = "102",
+  number    = "479",
+  pages     = "929--937",
+  publisher = "Taylor & Francis"
+)
+
+bibentry(
+  bibtype   = "Article",
+  title     = "Importance Sampling in the Monte Carlo Study of Sequential Tests",
+  author    = person("David", "Siegmund"),
+  journal   = "The Annals of Statistics",
+  year      = "1976",
+  volume    = "4",
+  number    = "4",
+  pages     = "673--684",
+  publisher = "Institute of Mathematical Statistics"
+)

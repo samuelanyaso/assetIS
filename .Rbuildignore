@@ -1,0 +1,10 @@
+^\.github$
+^README\.Rmd$
+^\.Rproj\.user$
+^.*\.Rproj$
+^LICENSE\.md$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^build_package\.R$
+^github_setup\.sh$

@@ -1,0 +1,50 @@
+Package: assetIS
+Type: Package
+Title: Importance Sampling for ASSET Tail Probability Estimation
+Version: 0.1.0
+Authors@R: person(given = "Samuel",
+                  family = "Anyaso-Samuel",
+                  role = c("aut", "cre"),
+                  email = "samuel.anyaso-samuel@nih.gov",
+                  comment = c(ORCID = ""))
+Description: Provides efficient importance sampling (IS) estimators of tail
+    probabilities for the ASSET subset-based meta-analysis statistic
+    (Bhattacharjee et al., 2012). Naive Monte Carlo estimation of extreme
+    tail probabilities is computationally prohibitive; the IS estimators in
+    this package use exponential tilting to concentrate simulation effort
+    in the target region, achieving large variance reductions. Four
+    estimators are provided covering the factorial combination of two
+    design dimensions: (i) Gaussian versus non-Gaussian (discrete genotype)
+    settings, and (ii) independent versus correlated study-level score
+    statistics. The Gaussian estimators are suitable for large-sample
+    continuous-trait meta-analysis; the non-Gaussian estimators are designed
+    for settings where normality fails, including single-cell eQTL mapping
+    across cell types and meta-analysis of rare diseases with small to
+    moderate sample sizes. All estimators support one- and two-sided
+    p-values, vectorised threshold evaluation via a range approximation,
+    case-control studies (with effective sample sizes or direct binary
+    outcome matrices), covariate adjustment, multi-ancestry analyses with
+    study-specific allele frequencies, and optional parallel computation.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: false
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 4.1.0)
+Imports:
+    parallel,
+    foreach,
+    doParallel,
+    Matrix
+Suggests:
+    MASS,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0),
+    ggplot2,
+    tidyr
+VignetteBuilder: knitr
+BugReports: https://github.com/samuelanyaso/assetIS/issues
+URL: https://github.com/samuelanyaso/assetIS
+Config/testthat/edition: 3
