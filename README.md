@@ -2,7 +2,6 @@
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/samuelanyaso/assetIS/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/samuelanyaso/assetIS/actions/workflows/R-CMD-check.yaml)
-[![CRAN status](https://www.r-pkg.org/badges/version/assetIS)](https://CRAN.R-project.org/package=assetIS)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 <!-- badges: end -->
 
@@ -116,23 +115,6 @@ asset_is_pvalue_ind(z = z, n = n, b = seq(3, 6, by = 0.1),
                     K = 1e5L, parallel = TRUE, n.cores = 4L, seed = 42L)
 ```
 
-## Choosing K
-
-| Target p-value | Naive MC | IS (approximate) |
-|---|---|---|
-| $10^{-3}$ | $10^5$ | $5{,}000$ |
-| $10^{-5}$ | $10^7$ | $10{,}000$ |
-| $10^{-7}$ | $10^9$ | $50{,}000$ |
-
-## Documentation
-
-Full function documentation and a worked vignette are available via:
-
-```r
-vignette("introduction", package = "assetIS")
-?asset_is_pvalue_ind
-?asset_is_nonnorm_corr
-```
 
 ## Citation
 
@@ -145,7 +127,7 @@ If you use **assetIS** in published work, please cite:
 ## References
 
 - Bhattacharjee S et al. (2012). *Am J Hum Genet*, **90**(5), 821--835.
-- Shi J and Siegmund D (2007). *Journal of the American Statistical Association*, **102**(479), 929--937.
+- Shi J et al. (2007). *Journal of the American Statistical Association*, **102**(479), 929--937.
 - Siegmund D (1976). *Ann Statist*, **4**(4), 673--684.
 
 ## License
