@@ -182,43 +182,6 @@
 <span>                    K <span class="op">=</span> <span class="fl">1e5L</span>, parallel <span class="op">=</span> <span class="cn">TRUE</span>, n.cores <span class="op">=</span> <span class="fl">4L</span>, seed <span class="op">=</span> <span class="fl">42L</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
-<h2 id="choosing-k">Choosing K<a class="anchor" aria-label="anchor" href="#choosing-k"></a>
-</h2>
-<table class="table">
-<thead><tr class="header">
-<th>Target p-value</th>
-<th>Naive MC</th>
-<th>IS (approximate)</th>
-</tr></thead>
-<tbody>
-<tr class="odd">
-<td><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup><annotation encoding="application/x-tex">10^{-3}</annotation></semantics></math></td>
-<td><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>10</mn><mn>5</mn></msup><annotation encoding="application/x-tex">10^5</annotation></semantics></math></td>
-<td><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>5</mn><mo>,</mo><mn>000</mn></mrow><annotation encoding="application/x-tex">5{,}000</annotation></semantics></math></td>
-</tr>
-<tr class="even">
-<td><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup><annotation encoding="application/x-tex">10^{-5}</annotation></semantics></math></td>
-<td><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>10</mn><mn>7</mn></msup><annotation encoding="application/x-tex">10^7</annotation></semantics></math></td>
-<td><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>10</mn><mo>,</mo><mn>000</mn></mrow><annotation encoding="application/x-tex">10{,}000</annotation></semantics></math></td>
-</tr>
-<tr class="odd">
-<td><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>10</mn><mrow><mo>−</mo><mn>7</mn></mrow></msup><annotation encoding="application/x-tex">10^{-7}</annotation></semantics></math></td>
-<td><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>10</mn><mn>9</mn></msup><annotation encoding="application/x-tex">10^9</annotation></semantics></math></td>
-<td><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>50</mn><mo>,</mo><mn>000</mn></mrow><annotation encoding="application/x-tex">50{,}000</annotation></semantics></math></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="section level2">
-<h2 id="documentation">Documentation<a class="anchor" aria-label="anchor" href="#documentation"></a>
-</h2>
-<p>Full function documentation and a worked vignette are available via:</p>
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/vignette.html" class="external-link">vignette</a></span><span class="op">(</span><span class="st">"introduction"</span>, package <span class="op">=</span> <span class="st">"assetIS"</span><span class="op">)</span></span>
-<span><span class="op">?</span><span class="va">asset_is_pvalue_ind</span></span>
-<span><span class="op">?</span><span class="va">asset_is_nonnorm_corr</span></span></code></pre></div>
-</div>
-<div class="section level2">
 <h2 id="citation">Citation<a class="anchor" aria-label="anchor" href="#citation"></a>
 </h2>
 <p>If you use <strong>assetIS</strong> in published work, please cite:</p>
@@ -231,7 +194,7 @@
 </h2>
 <ul>
 <li>Bhattacharjee S et al. (2012). <em>Am J Hum Genet</em>, <strong>90</strong>(5), 821–835.</li>
-<li>Shi J and Siegmund D (2007). <em>Journal of the American Statistical Association</em>, <strong>102</strong>(479), 929–937.</li>
+<li>Shi J et al. (2007). <em>Journal of the American Statistical Association</em>, <strong>102</strong>(479), 929–937.</li>
 <li>Siegmund D (1976). <em>Ann Statist</em>, <strong>4</strong>(4), 673–684.</li>
 </ul>
 </div>
@@ -275,7 +238,6 @@
 <h2 data-toc-skip>Dev status</h2>
 <ul class="list-unstyled">
 <li><a href="https://github.com/samuelanyaso/assetIS/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/samuelanyaso/assetIS/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
-<li><a href="https://CRAN.R-project.org/package=assetIS" class="external-link"><img src="https://www.r-pkg.org/badges/version/assetIS" alt="CRAN status"></a></li>
 <li><a href="https://www.gnu.org/licenses/gpl-3.0" class="external-link"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GPL v3"></a></li>
 </ul>
 </div>

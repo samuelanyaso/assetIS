@@ -338,7 +338,7 @@ $K \geq 5 \times 10^{4}$ for the non-Gaussian estimators with modest $C$
 sessionInfo()
 #> R version 4.5.3 (2026-03-11)
 #> Platform: x86_64-pc-linux-gnu
-#> Running under: Ubuntu 24.04.3 LTS
+#> Running under: Ubuntu 24.04.4 LTS
 #> 
 #> Matrix products: default
 #> BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
@@ -360,12 +360,12 @@ sessionInfo()
 #> [1] assetIS_0.1.0
 #> 
 #> loaded via a namespace (and not attached):
-#>  [1] doParallel_1.0.17 cli_3.6.5         knitr_1.51        rlang_1.1.7      
+#>  [1] doParallel_1.0.17 cli_3.6.5         knitr_1.51        rlang_1.2.0      
 #>  [5] xfun_0.57         textshaping_1.0.5 jsonlite_2.0.0    htmltools_0.5.9  
-#>  [9] ragg_1.5.2        sass_0.4.10       rmarkdown_2.30    evaluate_1.0.5   
+#>  [9] ragg_1.5.2        sass_0.4.10       rmarkdown_2.31    evaluate_1.0.5   
 #> [13] jquerylib_0.1.4   MASS_7.3-65       fastmap_1.2.0     yaml_2.3.12      
 #> [17] foreach_1.5.2     lifecycle_1.0.5   compiler_4.5.3    codetools_0.2-20 
-#> [21] fs_2.0.0          systemfonts_1.3.2 digest_0.6.39     R6_2.6.1         
+#> [21] fs_2.0.1          systemfonts_1.3.2 digest_0.6.39     R6_2.6.1         
 #> [25] parallel_4.5.3    bslib_0.10.0      tools_4.5.3       iterators_1.0.14 
 #> [29] pkgdown_2.2.0     cachem_1.1.0      desc_1.4.3
 ```
